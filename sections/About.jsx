@@ -20,12 +20,14 @@ const About = () => (
 
       <motion.p
         variants={fadeIn('down', 'tween', 2.2, 1)}
-        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
+        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-yellow"
       >
-        Welcome to the BananaFam headquarters... where you can find out all the
-        newest things happening with The Fam, check out BananaBeatz, as well as
-        the Merch, minting NFTs, paying with Peanutz and upcoming dynamic NFTs
-        and DAO!
+        Welcome to the BananaFam headquarters... <br></br>where you can find out
+        all the newest things happening with The Fam,<br></br> check out...
+        <br></br>
+        BananaBeatz<br></br> The Merch <br></br> Streams <br></br>The NFT mint{' '}
+        <br></br> The Peanutz Vault <br></br>as well as upcoming dynamic NFTs
+        and the DAO!
       </motion.p>
     </motion.div>
   </section>

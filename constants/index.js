@@ -34,16 +34,27 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
-    title: 'A new world',
-    subtitle:
-      'we have the latest update with new world for you to try never mind',
+    imgUrl: '/headset.svg',
+    title: 'BananaBeatz',
+    subtitle: 'we love to make music and share it with the Fam!',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'Gaming',
     subtitle:
-      'In the latest update, your eyes are narrow, making the world more realistic than ever',
+      'we love to play metaverse games like Blankos, NitroNation and NFL Rivals with the Fam',
+  },
+  {
+    imgUrl: '/headset.svg',
+    title: 'Sports',
+    subtitle:
+      'we love to play sports... especially baseball.. dynamic NFTs in our future??',
+  },
+  {
+    imgUrl: '/headset.svg',
+    title: 'Technology',
+    subtitle:
+      'we love to keep up on the newest tech... computer programming, NFTs, Crypto, thats our jam!',
   },
 ];
 
