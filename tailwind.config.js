@@ -14,6 +14,7 @@ module.exports = {
         'secondary-white': '#c7c7c7',
         'secondary-yellow': '#FFEB2A',
         'secondary-purple': '#9C03C8',
+        'secondary-purple2': '#340143',
       },
       transitionTimingFunction: {
         'out-flex': 'cubic-bezier(0.05, 0.6, 0.4, 0.9)',
