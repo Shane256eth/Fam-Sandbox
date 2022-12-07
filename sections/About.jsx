@@ -33,7 +33,8 @@ const About = () => (
           <br></br> Streaming <br></br> BananaBeatz <br></br>The NFT factory
           <br></br> The Peanutz Vault <br></br>
         </span>
-        <br></br>..watch out for dynamic NFTs and the DAO!
+        <br></br>..watch out for <b>Dynamic NFTs</b>
+        <br></br>and <b>The DAO!</b>
       </motion.p>
     </motion.div>
   </section>
