@@ -111,10 +111,10 @@ export default function Home() {
       // have read-only access to the Contract
       const nftContract = new Contract(NFT_CONTRACT_ADDRESS, abi, provider);
       // call the tokenIds from the contract
-      const _tokenIds = await nftContract.tokenIds();
-      console.log('tokenIds', _tokenIds);
+      const tokenIds = await nftContract.tokenIds();
+      console.log('tokenIds', tokenIds);
       // _tokenIds is a `Big Number`. We need to convert the Big Number to a string
-      setTokenIdsMinted(_tokenIds.toString());
+      setTokenIdsMinted(tokenIds.toString());
     } catch (err) {
       console.error(err);
     }
@@ -137,11 +137,6 @@ export default function Home() {
       connectWallet();
 
       getTokenIdsMinted();
-
-      // set an interval to get the number of token Ids minted every 5 seconds
-      setInterval(async function () {
-        await getTokenIdsMinted();
-      }, 5 * 1000);
     }
   }, [walletConnected]);
 
@@ -152,7 +147,7 @@ export default function Home() {
     // If wallet is not connected, return a button which allows them to connect their wallet
     if (!walletConnected) {
       return (
-        <button onClick={connectWallet} className={styles.button}>
+        <button type="button" onClick={connectWallet} className={styles.button}>
           Connect your wallet
         </button>
       );
@@ -160,11 +155,15 @@ export default function Home() {
 
     // If we are currently waiting for something, return a loading button
     if (loading) {
-      return <button className={styles.button}>Loading...</button>;
+      return (
+        <button type="button" className={styles.button}>
+          Loading...
+        </button>
+      );
     }
 
     return (
-      <button className={styles.button} onClick={publicMint}>
+      <button type="button" className={styles.button} onClick={publicMint}>
         Public Mint 🚀
       </button>
     );
