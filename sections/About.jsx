@@ -25,12 +25,12 @@ const About = () => (
         <span className="font-bold text-secondary-yellow">
           Welcome to <br></br> BananaFam HQ
         </span>
-        <br></br>where you.. <br></br> can find out what's new <br></br>
-        with the crew<br></br> <br></br>Check out...
+        <br></br>where you <br></br> can find out what's new <br></br>
+        with the crew<br></br>
         <br></br>
         <span className="font-bold text-secondary-orange">
-          Streaming
-          <br></br> Banana Beatz <br></br> Merch <br></br>The NFT factory
+          Merch
+          <br></br> Streaming <br></br> BananaBeatz <br></br>The NFT factory
           <br></br> The Peanutz Vault <br></br>
         </span>
         <br></br>..watch out for dynamic NFTs and the DAO!
