@@ -19,15 +19,19 @@ const About = () => (
       <TypingText title="| About the Fam" textStyles="text-center" />
 
       <motion.p
-        variants={fadeIn('down', 'tween', 2.2, 1)}
-        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-yellow"
+        variants={fadeIn('down', 'tween', 0.6, 1)}
+        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        Welcome to the BananaFam headquarters... <br></br>where you can find out
-        all the newest things happening with The Fam,<br></br> check out...
+        Welcome to <br></br> BananaFam HQ <br></br>where you <br></br> can find
+        out what's new <br></br>
+        with The Fam<br></br> <br></br>Check out...
         <br></br>
-        BananaBeatz<br></br> The Merch <br></br> Streams <br></br>The NFT mint{' '}
-        <br></br> The Peanutz Vault <br></br>as well as upcoming dynamic NFTs
-        and the DAO!
+        <span className="font-bold text-secondary-orange">
+          Streaming
+          <br></br> Banana Beatz <br></br> Merch <br></br>The NFT factory{' '}
+          <br></br> The Peanutz Vault <br></br>
+        </span>
+        <br></br>..watch out for dynamic NFTs and the DAO!
       </motion.p>
     </motion.div>
   </section>

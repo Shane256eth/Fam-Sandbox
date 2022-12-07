@@ -16,7 +16,7 @@ const Hero = () => (
     >
       <div className="flex justify-center items-center flex-col relative z-10">
         <motion.h1 variants={textVariant(1.8)} className={styles.heroHeading}>
-          Banana
+          Banana<br></br>
         </motion.h1>
 
         <motion.div
@@ -34,9 +34,9 @@ const Hero = () => (
         <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
 
         <img
-          src="/bananas.svg"
+          src="/planet-03.jpg"
           alt="hero_cover"
-          className="w-full sm:h-[500px] h-[350px] object-cover z-10 relative"
+          className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
         />
 
         <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">

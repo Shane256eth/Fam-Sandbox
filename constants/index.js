@@ -36,19 +36,19 @@ export const newFeatures = [
   {
     imgUrl: '/headset.svg',
     title: 'BananaBeatz',
-    subtitle: 'we love to make music and share it with the Fam!',
+    subtitle: 'we love to make music and videos and share them with our Fam!',
   },
   {
     imgUrl: '/headset.svg',
     title: 'Gaming',
     subtitle:
-      'we love to play metaverse games like Blankos, NitroNation and NFL Rivals with the Fam',
+      'Catch us streaming metaverse games like Blankos, NitroNation and NFL Rivals with the Fam',
   },
   {
     imgUrl: '/headset.svg',
     title: 'Sports',
     subtitle:
-      'we love to play sports... especially baseball.. dynamic NFTs in our future??',
+      'we love to play sports... especially baseball.. dynamic NFTs in our future?? Sounds like a Grand Slam!',
   },
   {
     imgUrl: '/headset.svg',

@@ -20,7 +20,7 @@ const Navbar = () => (
       />
 
       <h2 className="font-extrabold text-[24px] leading-[30px] text-white">
-        BananaBeatz presents:
+        BananaBeatz presents<br></br>
       </h2>
       <img
         src="/menu.svg"
