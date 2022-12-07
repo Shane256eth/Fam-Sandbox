@@ -14,22 +14,9 @@ const Hero = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={'${styles.innerWidth} mx-auto flex flex-col'}
     >
-      <div className="flex justify-center items-center flex-col relative z-10">
-        <motion.h1 variants={textVariant(1.8)} className={styles.heroHeading}>
-          Banana<br></br>
-        </motion.h1>
-
-        <motion.div
-          variants={textVariant(2.5)}
-          className="flex flex-row justify-center items-center"
-        >
-          <h1 className={styles.heroHeading}>fam</h1>
-        </motion.div>
-      </div>
-
       <motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}
-        className="relative w-full md:-mt-[20px] -mt-[12px]"
+        className="relative w-full md:-mt-[1px] -mt-[12px]"
       >
         <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
 

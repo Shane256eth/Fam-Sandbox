@@ -22,13 +22,15 @@ const About = () => (
         variants={fadeIn('down', 'tween', 0.6, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        Welcome to <br></br> BananaFam HQ <br></br>where you <br></br> can find
-        out what's new <br></br>
-        with The Fam<br></br> <br></br>Check out...
+        <span className="font-bold text-secondary-yellow">
+          Welcome to <br></br> BananaFam HQ
+        </span>
+        <br></br>where you.. <br></br> can find out what's new <br></br>
+        with the crew<br></br> <br></br>Check out...
         <br></br>
         <span className="font-bold text-secondary-orange">
           Streaming
-          <br></br> Banana Beatz <br></br> Merch <br></br>The NFT factory{' '}
+          <br></br> Banana Beatz <br></br> Merch <br></br>The NFT factory
           <br></br> The Peanutz Vault <br></br>
         </span>
         <br></br>..watch out for dynamic NFTs and the DAO!
