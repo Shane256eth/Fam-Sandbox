@@ -19,7 +19,7 @@ const About = () => (
       <TypingText title="| About the Fam" textStyles="text-center" />
 
       <motion.p
-        variants={fadeIn('down', 'tween', 0.6, 1)}
+        variants={fadeIn('down', 'tween', 1.6, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
         <span className="font-bold text-secondary-yellow">
