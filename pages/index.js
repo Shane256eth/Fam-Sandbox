@@ -138,6 +138,10 @@ const Home = () => {
       connectWallet();
 
       getTokenIdsMinted();
+
+      setInterval(async () => {
+        await getTokenIdsMinted();
+      }, 5 * 1000);
     }
   }, [walletConnected]);
 
