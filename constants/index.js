@@ -2,7 +2,7 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/ape1.webp',
-    title: 'Stinky',
+    title: 'Stinky Pete',
   },
   {
     id: 'world-2',
@@ -23,6 +23,11 @@ export const exploreWorlds = [
     id: 'world-5',
     imgUrl: '/icedawg.webp',
     title: 'Ice Dawg',
+  },
+  {
+    id: 'world-6',
+    imgUrl: '/icedawg.webp',
+    title: 'Ice Dogg',
   },
 ];
 
