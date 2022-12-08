@@ -176,10 +176,8 @@ const Home = () => {
       <Hero />
       <div className="relative">
         <div>
-          <div className={styles.description}>
-            Its an NFT collection for the entire fam.
-          </div>
-          <div className={styles.description}>
+          <div className="text-secondary-white">Genesis NFT collection</div>
+          <div className="text-secondary-white">
             {tokenIdsMinted}/10 have been minted
           </div>
           {renderButton()}
