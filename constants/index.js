@@ -1,18 +1,18 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-02.png',
-    title: 'Peanut Butter',
+    imgUrl: '/ape1.webp',
+    title: 'Stinky',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-01.png',
+    imgUrl: '/ape2.webp',
     title: 'PBJr.',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.jpg',
-    title: 'Meet The Fam',
+    imgUrl: '/planet-02.png',
+    title: 'Peanut Butter',
   },
   {
     id: 'world-4',
