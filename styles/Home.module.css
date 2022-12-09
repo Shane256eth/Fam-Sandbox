@@ -33,10 +33,10 @@
 }
 
 .button {
-  border-radius: 4px;
-  background-color: skyblue;
+  border-radius: 40px;
+  background-color: orange;
   border: purple;
-  color: #ffffff;
+  color: black;
   font-size: 15px;
   padding: 20px;
   width: 200px;

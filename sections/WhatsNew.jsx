@@ -17,7 +17,7 @@ const WhatsNew = () => (
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
       <motion.div
-        variants={fadeIn('right', 'tween', 0.2, 1)}
+        variants={fadeIn('right', 'tween', 1.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
         <TypingText title="| Whats it all about?" />
