@@ -15,7 +15,7 @@ module.exports = {
         'secondary-yellow': '#FFEB2A',
         'secondary-purple': '#9C03C8',
         'secondary-purple2': '#340143',
-        'secondary-orange': '#ff5500',
+        'secondary-orange': '#ff6600',
         'secondary-purple3': '#79029B',
         'secondary-blue': '#1B7CED',
       },
